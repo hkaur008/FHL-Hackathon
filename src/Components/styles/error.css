@@ -1,0 +1,38 @@
+.errorCont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+  }
+  
+  .error {
+    color: #46474B;
+    font-size: 160px;
+  }
+  
+  .error img {
+    width: 200px;
+    margin-bottom: 30px;
+  }
+  
+  .errorType {
+    color: #46474B;
+    font-size: 30px;
+  }
+  
+  @media screen and (max-width: 450px) {
+    .errorType {
+      font-size: 23px;
+    }
+  }
+  /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,221 @@
+.mentorCard {
+    background-color: #EEE9E6;
+    width: 250px;
+    height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 20px 0px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 5px;
+    margin: 20px 0px;
+  }
+  
+  .mentorPhoto {
+    width: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .linkedIn {
+    background-color: #1C232D;
+    text-decoration: none;
+    color: #EEE9E6;
+    padding: 10px 20px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    border-radius: 5px;
+  }
+  
+  .linkedIn:hover {
+    background-color: #46474B;
+    color: white;
+  }
+  
+  .mentorDetail {
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  .mentorDetail div {
+    font-weight: 600;
+  }
+  
+  /* container */
+  .panelCont {
+    padding-top: 100px;
+  }
+  
+  .bookSeat {
+    background-color: #EEE9E6;
+    height: 150px;
+    width: 60%;
+    margin: auto;
+    /* margin-top: 30px; */
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 20px #eee9e618,-5px -5px 20px #eee9e618,-5px 5px 20px #eee9e618,5px -5px 20px #eee9e618;
+            box-shadow: 5px 5px 20px #eee9e618,-5px -5px 20px #eee9e618,-5px 5px 20px #eee9e618,5px -5px 20px #eee9e618;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #1C232D;
+    padding: 0px 40px;
+  }
+  
+  .eventDetail {
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .eventDetail div {
+    font-weight: bolder;
+  }
+  
+  .bookNow {
+    background-color: #F48B0C;
+    /* width: 150px;
+    height: 50px; */
+    padding: 10px 30px;
+    border-radius: 10px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #EEE9E6;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .bookNow:hover {
+    -webkit-filter: drop-shadow(0px 0px 2px #1c232D);
+            filter: drop-shadow(0px 0px 2px #1c232D);
+    color: #EEE9E6;
+  }
+  
+  .alreadyBooked {
+    background-color: green;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #EEE9E6;
+  }
+  
+  .slotsfull {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #EEE9E6;
+  }
+  
+  .ourMentor {
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 0px;
+    text-decoration: underline;
+  }
+  
+  .panelMentorList {
+    width: 80%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .bookSeat {
+      width: 65%;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .bookSeat {
+      width: 75%;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .bookSeat {
+      width: 85%;
+      padding: 0px 30px;
+      height: 130px;
+    }
+    .bookpanel div {
+      width: 130px;
+      height: 45px;
+      font-size: 16px;
+      line-height: 45px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .bookSeat {
+      width: 95%;
+      padding: 0px 25px;
+      height: 130px;
+    }
+    .eventDetail {
+      font-size: 18px;
+    }
+    .bookpanel div {
+      width: 120px;
+      height: 40px;
+      font-size: 16px;
+      line-height: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .bookSeat {
+      width: 95%;
+      padding: 0px 25px;
+      height: 120px;
+    }
+    .eventDetail {
+      font-size: 14px;
+    }
+    .bookNow {
+      padding: 10px 20px;
+      font-size: 13px;
+    }
+  }
+  /*# sourceMappingURL=style.css.map */

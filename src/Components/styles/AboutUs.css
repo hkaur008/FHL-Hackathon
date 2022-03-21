@@ -1,0 +1,183 @@
+.aboutUsCont {
+    padding: 20px 100px;
+  }
+  
+  .aboutsubcont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px 0px;
+  }
+  
+  .aboutCont {
+    width: 50%;
+    color: #EEE9E6;
+    font-size: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  .aboutCont p {
+    margin-bottom: 30px;
+  }
+  
+  .aboutUsCont div img {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .aboutImg {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  
+  .aboutImg img {
+    display: block;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .aboutCont {
+      width: 55%;
+    }
+    .aboutImg {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 45%;
+    }
+    .aboutImg img {
+      width: 100%;
+    }
+    .aboutUsCont {
+      padding: 20px 30px;
+      margin: auto;
+    }
+    .aboutCont p {
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .aboutCont {
+      width: 60%;
+    }
+    .aboutImg {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 100%;
+    }
+    .aboutImg img {
+      width: 100%;
+    }
+    .aboutUsCont {
+      padding: 20px 30px;
+      margin: auto;
+    }
+    .aboutCont p {
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .aboutImg {
+      display: none;
+    }
+    .aboutCont {
+      width: 100%;
+    }
+    .aboutUsCont {
+      padding: 20px 30px;
+      margin: auto;
+    }
+    .aboutCont p {
+      text-align: center;
+    }
+  }
+  
+  .containerr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 0px;
+  }
+  
+  .first, .second {
+    /* display: block; */
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .textimg {
+    text-align: center;
+    -webkit-text-decoration: underline #e99a32;
+            text-decoration: underline #e99a32;
+    text-underline-position: under;
+    color: #EEE9E6;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    display: block;
+  }
+  
+  .imgs {
+    border-radius: 10%;
+  }
+  
+  .next {
+    padding: 5%;
+    padding-left: 10%;
+  }
+  
+  @media screen and (max-width: 896px) {
+    .aboutsubcont {
+      display: block;
+    }
+    .aboutCont {
+      margin: auto;
+    }
+  }
+  /*# sourceMappingURL=style.css.map */

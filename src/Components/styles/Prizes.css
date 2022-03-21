@@ -1,0 +1,131 @@
+/* .subcont {
+    border: 2px solid #eee9e6;
+    color: #eee9e6;
+    padding: 20px 0px;
+    border-radius: 10px;
+    position: relative;
+    background-color: #46474B;
+    overflow: hidden;
+    margin: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 270px;
+    margin-bottom: 20px;
+  } */
+
+/* .pricescont {
+    position: relative;
+  } */
+/*   
+  .sopnsedText {
+    color: #0a87ed;
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+   */
+/* .subcont {
+    border: 2px solid white;
+
+    -webkit-box-shadow: 0px 0px 10px #eee9e6cc, 0px 0px 10px #1C232D inset;
+            box-shadow: 0px 0px 10px #eee9e6cc, 0px 0px 10px #1C232D inset;
+    background-color: #eee9e633;
+  } */
+/*   
+  .prizelogo {
+    width: 60%;
+    margin-bottom: 20px;
+  } */
+
+/* .pricesdesc {
+    color: #EEE9E6;
+    width: 80%;
+    margin: auto;
+    padding: 15px 0px;
+    text-align: left;
+  }
+  
+  .prizepara {
+    color: #eee9e6;
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    font-size: 14px;
+  } */
+
+/* .prizelower {
+    margin: 10px 0px;
+    width: 80%;
+    font-size: 18px;
+  } */
+
+:root {
+  --background: rgba(36, 50, 71, 1);
+  --card-background-color: linear-gradient(
+    180deg,
+    #367cff 0.04%,
+    #c242bd 99.96%
+  );
+  --btn-color: rgba(5, 5, 5, 1);
+  --text-primary: rgba(255, 255, 255, 1);
+  --text-secondary: rgba(212, 212, 212, 1);
+  --border-color: white;
+  --card-shadow: 4px 7px 19px rgba(168, 44, 210, 0.56);
+}
+body {
+  background: var(--background);
+  color: var(--text-primary);
+  font-family: "Montserrat", sans-serif;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+}
+#PrizesComponent {
+  line-height: 2rem;
+}
+
+.card-image {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 80%;
+  margin: auto;
+}
+.card {
+  padding: 1rem;
+  width: 300px;
+  height: 450px;
+  background: var(--card-background-color);
+  border-radius: 20px;
+  box-shadow: var(--card-shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border: 1px dashed white;
+  margin: 20px 10px;
+
+}
+.card-title {
+  margin-top: 30px;
+
+}
+.card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+.card .card-subtitle {
+  color: var(--text-primary);
+  font-size: 19px;
+  text-align: left;
+  margin-bottom: 5px;
+}

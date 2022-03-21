@@ -1,0 +1,40 @@
+.preloader {
+    height: 100vh;
+    background-color: #1C232D;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    z-index: 1000;
+  }
+  
+  .preloader-img {
+    height: 200px;
+    width: 200px;
+    -webkit-animation: beat 1.3s infinite;
+            animation: beat 1.3s infinite;
+  }
+  
+  @-webkit-keyframes beat {
+    50% {
+      height: 250px;
+      width: 250px;
+    }
+  }
+  
+  @keyframes beat {
+    50% {
+      height: 250px;
+      width: 250px;
+    }
+  }
+  
+  .hide {
+    display: none;
+  }
+  /*# sourceMappingURL=style.css.map */
